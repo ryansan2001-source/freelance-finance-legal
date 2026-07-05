@@ -10,8 +10,8 @@ This policy explains how the app handles your information. The short version:
 ## Summary
 
 - We collect **nothing**. No analytics, no advertising, no tracking, no accounts.
-- Everything you enter — income, expenses, client names, receipt photos, and tax
-  settings — is stored **on your device**.
+- Everything you enter (income, expenses, client names, receipt photos, and tax
+  settings) is stored **on your device**.
 - If you turn on iCloud sync, that data is stored in **your own private iCloud
   account** and synced across your devices by Apple. We have no access to it.
 - The app works fully offline. The only network activity is Apple's iCloud sync,
@@ -54,11 +54,11 @@ sync across your Apple devices. This uses Apple's iCloud (CloudKit) service:
 The app asks for these system permissions only to provide specific features. In
 each case the data is used on-device and is not sent to us:
 
-- **Photos** — so you can attach a receipt photo to an expense. The app uses the
+- **Photos**: so you can attach a receipt photo to an expense. The app uses the
   system photo picker and only receives the photo you select.
-- **Calendar (add events only)** — so you can add quarterly tax deadlines to your
+- **Calendar (add events only)**: so you can add quarterly tax deadlines to your
   calendar. The app can only add events; it cannot read your calendar.
-- **Notifications** — so the app can remind you of upcoming tax deadlines. These
+- **Notifications**: so the app can remind you of upcoming tax deadlines. These
   reminders are scheduled and delivered entirely on your device.
 
 Receipt text recognition (reading the total and date from a receipt photo) runs
@@ -95,7 +95,7 @@ Privacy laws such as the EU/UK GDPR and the California Consumer Privacy Act
 data, and to not be discriminated against for exercising those rights.
 
 Because we do not collect or hold any of your personal information, there is
-nothing for us to access, disclose, correct, delete, or port on your behalf —
+nothing for us to access, disclose, correct, delete, or port on your behalf, since
 your data is under your own control on your device and in your own iCloud
 account. If you have any questions about these rights, contact us below.
 
