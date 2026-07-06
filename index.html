@@ -3,133 +3,104 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="index, follow">
-<title>Freelance Finance Privacy Policy</title>
+<title>Privacy Policy - Freelance Flow</title>
 <style>
-  :root {
-    --accent: #0088ff;
-    --ink: #1c1c1e;
-    --muted: #6b6b70;
-    --bg: #ffffff;
-    --card: #f7f7f9;
-    --line: #e5e5ea;
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    color: #1c1c1e;
+    background: #ffffff;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
-      --ink: #f2f2f7; --muted: #a1a1a8; --bg: #000000;
-      --card: #1c1c1e; --line: #2c2c2e;
-    }
+    body { color: #e5e5e7; background: #000000; }
+    a { color: #6cb4ff; }
   }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: var(--ink);
-    background: var(--bg);
-    line-height: 1.6;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
-  header { border-bottom: 1px solid var(--line); padding-bottom: 22px; margin-bottom: 8px; }
-  h1 { font-size: 1.7rem; margin: 0 0 6px; letter-spacing: -0.02em; }
-  h2 { font-size: 1.2rem; margin: 34px 0 8px; letter-spacing: -0.01em; }
-  .dates { color: var(--muted); font-size: 0.9rem; margin: 0; }
-  .lede {
-    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
-    padding: 16px 18px; margin: 24px 0; font-size: 1.02rem;
-  }
-  .lede strong { color: var(--accent); }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 1.25rem; }
-  li { margin: 6px 0; }
-  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
-  code { background: var(--card); padding: 1px 5px; border-radius: 5px; font-size: 0.9em; }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.3rem; margin-top: 2.2rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.4rem; }
+  .meta { color: #8a8a8e; font-size: 0.95rem; margin: 0.15rem 0; }
+  a { color: #0a63c9; }
+  ul { padding-left: 1.3rem; }
+  hr { border: none; border-top: 1px solid #d0d0d5; margin: 2.5rem 0; }
+  code { font-size: 0.95em; }
 </style>
 </head>
 <body>
-<div class="wrap">
-<header>
-  <h1>Freelance Finance Privacy Policy</h1>
-  <p class="dates">Effective July 5, 2026 · Last updated July 5, 2026</p>
-</header>
 
-<p class="lede">
-  Freelance Finance is developed by Ryan McGee. The short version:
-  <strong>the app does not collect any of your data, and we never receive it.</strong>
-</p>
+<h1>Privacy Policy for Freelance Flow</h1>
+<p class="meta"><strong>Effective date:</strong> 2026-07-06</p>
+<p class="meta"><strong>Last updated:</strong> 2026-07-06</p>
 
-<h2>Summary</h2>
+<p>Freelance Flow ("the app," "we," "us") is published by Ryan McGee. This Privacy Policy explains what information the app does and does not collect, how your data is handled, and the rights you have. It is hosted at <a href="https://ryansan2001-source.github.io/freelance-finance-legal/">https://ryansan2001-source.github.io/freelance-finance-legal/</a>. If you have questions, contact us at <a href="mailto:developer.ryan.mcgee@icloud.com">developer.ryan.mcgee@icloud.com</a>.</p>
+
+<p>Freelance Flow is an offline-first app for tracking freelance income, expenses, and taxes. The short version: we do not collect your data. Everything you enter stays on your device, and the only place it ever syncs is your own private iCloud account, which only you can access.</p>
+
+<h2>1. Information We Collect</h2>
+<p><strong>We collect no personal data.</strong> The developer does not operate any servers, accounts, analytics, or tracking, and receives none of your information.</p>
+<p>All of the data you create in the app is stored locally on your device, including:</p>
 <ul>
-  <li>We collect <strong>nothing</strong>. No analytics, no advertising, no tracking, no accounts.</li>
-  <li>Everything you enter (income, expenses, client names, receipt photos, and tax settings) is stored <strong>on your device</strong>.</li>
-  <li>If you turn on iCloud sync, that data is stored in <strong>your own private iCloud account</strong> and synced across your devices by Apple. We have no access to it.</li>
-  <li>The app works fully offline. The only network activity is Apple's iCloud sync, and only if you enable it.</li>
+  <li>Income entries, expense entries, and set-aside logs</li>
+  <li>Receipt images and any text scanned from them</li>
+  <li>Tax rate, currency, and other settings and preferences</li>
+</ul>
+<p>This information is stored on your device using Apple's on-device storage (SwiftData and, for preferences, iOS user defaults). It is not transmitted to us.</p>
+<p><strong>Receipt scanning</strong> runs entirely on your device using Apple's Vision framework. Receipt images are analyzed locally to auto-fill expense details. No image or scanned text is sent over the network.</p>
+<p><strong>The AI finance assistant</strong> runs entirely on your device using Apple's on-device Foundation Models (available on iOS 26 and later). Your questions and your financial data are processed locally on your device. Nothing is sent to us or to any third-party AI service.</p>
+
+<h2>2. How Your Information Is Used</h2>
+<p>Because your data never leaves your device except through your own iCloud (see below), it is used only to provide the app's features to you: recording income and expenses, scanning receipts, estimating taxes, answering questions through the on-device assistant, and reminding you about tax dates. We do not use your information for advertising, profiling, or any purpose of our own.</p>
+
+<h2>3. iCloud Sync (Optional)</h2>
+<p>The app includes an optional "Sync to iCloud" setting. When you turn it on, your income, expenses, receipts, and settings are stored in your own private iCloud database through Apple's CloudKit so they stay in step across your devices.</p>
+<ul>
+  <li>This is <strong>your</strong> private iCloud, tied to your Apple Account. We cannot see, access, or retrieve this data.</li>
+  <li>Sync happens only if you enable it. If it is off, your data stays on the single device.</li>
+  <li>Apple's handling of iCloud data is governed by Apple's Privacy Policy, available at <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>.</li>
 </ul>
 
-<h2>Information We Collect</h2>
-<p><strong>None.</strong> Freelance Finance does not collect, transmit, sell, or share any personal information with us or with any third party. There is no account to create and no sign-in. We have no servers that receive your data.</p>
+<h2>4. Calendar Access (Optional)</h2>
+<p>If you choose to add tax reminders to your calendar, the app will ask for permission to access your calendar and will write reminder events you request. It does this only when you ask, and it does not read, collect, or transmit your calendar contents. You can deny or revoke this permission at any time in the iOS Settings app under Privacy.</p>
 
-<h2>Information Stored on Your Device</h2>
-<p>The app stores the following locally on your device so it can do its job:</p>
+<h2>5. Subscriptions and In-App Purchases</h2>
+<p>Freelance Flow offers subscriptions and in-app purchases that are processed entirely by Apple through the App Store and StoreKit. We do not receive or store your name, payment card, or billing details. Purchases are handled under Apple's Privacy Policy (<a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>) and the terms of the App Store. Managing, canceling, or requesting refunds for a subscription is done through your Apple Account settings.</p>
+
+<h2>6. Third-Party Services</h2>
+<p>The app uses no third-party analytics, advertising, crash-reporting, or tracking services, and includes no third-party SDKs that collect your data. The only Apple services involved are those described above: on-device frameworks, your private iCloud, and App Store purchasing.</p>
+
+<h2>7. How Your Information Is Shared</h2>
+<p>We do not sell, rent, or share your personal information, because we never collect it in the first place. We will never share your personal data with any third party, including any third-party AI service, without your explicit permission. The app is designed so that this situation does not arise: your data stays on your device and in your own iCloud.</p>
+
+<h2>8. Data Retention and Deletion</h2>
+<p>Because we hold none of your data, there is nothing for us to retain or delete on our side. You are always in control of your own data:</p>
 <ul>
-  <li><strong>Financial records</strong> you enter: income and expense amounts, client names, notes, dates, and expense categories.</li>
-  <li><strong>Receipt photos</strong> you choose to attach to an expense.</li>
-  <li><strong>Preferences</strong>: your tax rate, currency, and app settings.</li>
-</ul>
-<p>This information never leaves your device except through the optional iCloud sync described below. You can delete any of it at any time by removing the relevant entries, or delete all of it by deleting the app.</p>
-
-<h2>Optional iCloud Sync</h2>
-<p>If you enable <strong>Sync to iCloud</strong> in the app's Settings, your financial records and receipt photos are stored in your <strong>private iCloud database</strong> and kept in sync across your Apple devices. This uses Apple's iCloud (CloudKit) service:</p>
-<ul>
-  <li>The data is associated with <strong>your Apple ID</strong>, not with us.</li>
-  <li><strong>We cannot see, access, or retrieve this data.</strong> It is handled between your devices and Apple under Apple's infrastructure.</li>
-  <li>Apple's handling of this data is governed by the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>.</li>
-  <li>iCloud sync is <strong>off by default</strong>. You can turn it off at any time in Settings.</li>
+  <li>Delete individual entries or receipts within the app at any time.</li>
+  <li>Delete the app to remove its on-device data from that device.</li>
+  <li>To remove synced data, turn off iCloud sync and delete the app's data from your iCloud in the iOS Settings app under your Apple Account, iCloud, Manage Account Storage.</li>
 </ul>
 
-<h2>Device Permissions</h2>
-<p>The app asks for these system permissions only to provide specific features. In each case the data is used on-device and is not sent to us:</p>
-<ul>
-  <li><strong>Photos</strong>: so you can attach a receipt photo to an expense. The app uses the system photo picker and only receives the photo you select.</li>
-  <li><strong>Calendar (add events only)</strong>: so you can add quarterly tax deadlines to your calendar. The app can only add events; it cannot read your calendar.</li>
-  <li><strong>Notifications</strong>: so the app can remind you of upcoming tax deadlines. These reminders are scheduled and delivered entirely on your device.</li>
-</ul>
-<p>Receipt text recognition (reading the total and date from a receipt photo) runs <strong>entirely on your device</strong> using Apple's on-device Vision framework. Receipt images are never uploaded for processing.</p>
+<h2>9. Your Privacy Rights</h2>
+<h3>GDPR (EEA / UK)</h3>
+<p>If you are in the European Economic Area or the United Kingdom, data protection law gives you rights over your personal data, including the rights to access, correct, delete, restrict, and port it, and to object to processing. Because we do not collect or hold any of your personal data, there is nothing for us to access, export, or erase on your behalf. You exercise these rights directly by managing the data on your device and in your own iCloud account, as described in Section 8. If you have questions, contact us at <a href="mailto:developer.ryan.mcgee@icloud.com">developer.ryan.mcgee@icloud.com</a>.</p>
+<h3>CCPA / CPRA (California)</h3>
+<p>If you are a California resident, you have the right to know what personal information is collected, to request deletion, to correct it, and to opt out of its sale or sharing. We do not collect, sell, or share your personal information. We have not sold or shared personal information in the preceding twelve months, and we do not do so. You control your data directly on your device and in your own iCloud, as described in Section 8.</p>
 
-<h2>Third Parties</h2>
-<p>Freelance Finance contains <strong>no third-party analytics, advertising, tracking, or software development kits (SDKs)</strong>. We do not share data with anyone, because we never receive any.</p>
+<h2>10. Children's Privacy</h2>
+<p>Freelance Flow is intended for a general audience of adults managing freelance finances and is not directed at children. We do not knowingly collect any information from children. Because the app collects no personal data at all, no information about any user, including children, is gathered by us.</p>
 
-<h2>Children's Privacy</h2>
-<p>The app is not directed at children and does not collect any information from anyone, including children under 13 (or the equivalent minimum age in your jurisdiction).</p>
+<h2>11. Security</h2>
+<p>Your data is protected by the security of your own device and Apple account, including device passcode, Face ID or Touch ID, on-device encryption, and, when you enable sync, the security of your private iCloud. Because we operate no servers and hold none of your data, there is no central store of your information for anyone to breach. No method of storage is ever completely secure, so we encourage you to protect your device with a passcode and keep your Apple Account credentials safe.</p>
 
-<h2>Data Retention and Deletion</h2>
-<p>Because your data lives on your device (and, if enabled, in your own iCloud):</p>
-<ul>
-  <li>To delete individual records, remove them within the app.</li>
-  <li>To delete everything, delete the app from your device. To also remove synced copies, disable iCloud sync and delete the app's data from your iCloud storage in the device's Settings.</li>
-</ul>
-<p>We hold no copies of your data and therefore have nothing to delete on our end.</p>
+<h2>12. Changes to This Policy</h2>
+<p>We may update this policy from time to time. Changes are posted at <a href="https://ryansan2001-source.github.io/freelance-finance-legal/">https://ryansan2001-source.github.io/freelance-finance-legal/</a> with a new effective date.</p>
 
-<h2>Your Rights (GDPR, CCPA/CPRA, and others)</h2>
-<p>Privacy laws such as the EU/UK GDPR and the California Consumer Privacy Act (CCPA/CPRA) give you rights to access, correct, delete, and port your personal data, and to not be discriminated against for exercising those rights.</p>
-<p>Because we do not collect or hold any of your personal information, there is nothing for us to access, disclose, correct, delete, or port on your behalf, since your data is under your own control on your device and in your own iCloud account. If you have any questions about these rights, contact us below.</p>
-<p>We do not "sell" or "share" personal information as those terms are defined under the CCPA/CPRA, and we do not engage in cross-context behavioral advertising.</p>
+<h2>13. Contact Us</h2>
+<p>Ryan McGee<br>
+<a href="https://ryansan2001-source.github.io/freelance-finance-legal/">https://ryansan2001-source.github.io/freelance-finance-legal/</a><br>
+<a href="mailto:developer.ryan.mcgee@icloud.com">developer.ryan.mcgee@icloud.com</a></p>
 
-<h2>Security</h2>
-<p>Your data is protected by your device's built-in security (including device passcode and encryption) and, when iCloud sync is enabled, by Apple's iCloud security. Keep your device and Apple ID secured to protect your information.</p>
-
-<h2>Changes to This Policy</h2>
-<p>We may update this policy from time to time. When we do, we will revise the "Last updated" date above and post the new version at this page. Material changes will be reflected here before they take effect.</p>
-
-<h2>Contact</h2>
-<p>If you have questions about this policy or your privacy, contact:</p>
-<p><strong>Ryan McGee</strong><br>
-Email: <a href="mailto:developer.ryan.mcgee@icloud.com">developer.ryan.mcgee@icloud.com</a></p>
-
-<footer>
-  © 2026 Ryan McGee. Freelance Finance.
-</footer>
-</div>
 </body>
 </html>
